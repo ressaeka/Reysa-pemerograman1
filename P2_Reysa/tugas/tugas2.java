@@ -1,4 +1,4 @@
-package src.tugas;
+package src.P2_Reysa.tugas;
 import java.util.Scanner;
 
 public class tugas2 {

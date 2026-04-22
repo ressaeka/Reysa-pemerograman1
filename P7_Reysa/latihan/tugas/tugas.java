@@ -14,17 +14,18 @@ public class tugas {
         System.out.println("3. Kwetiau      : Rp.14000");
         System.out.println("4. Nasi Goreng  : Rp.15000");
 
+        // INPUT PILIHAN
         System.out.print("Masukan pilihan (1-4): ");
         String pilihan = input.nextLine();
 
-        // VALIDASI 
+        // VALIDASI INPUT
         if (pilihan.equals("1") || pilihan.equals("2") || 
             pilihan.equals("3") || pilihan.equals("4")) {
 
             String namaMenu = "";
             int harga = 0;
 
-            // SWITCH
+            // MENENTUKAN PILIHAN BERDASARKAAN MENU
             switch (pilihan) {
                 case "1":
                     namaMenu = "Bakso";
@@ -44,7 +45,7 @@ public class tugas {
                     break;
             }
 
-            // INPUT USER
+            // INPUT DATA USER
             System.out.print("Masukan Nama   : ");
             String nama = input.nextLine();
 
@@ -53,6 +54,7 @@ public class tugas {
 
             int total = harga * jumlah;
 
+            // OUTPUT / NOTA PEMBELIAN
             System.out.println("\n====================================");
             System.out.println("Nota Pembelian");
             System.out.println("====================================");
@@ -65,6 +67,7 @@ public class tugas {
             System.out.println("====================================");
 
         } else {
+            // ERROR JIKA PILIHAN DI MENU TIDAK ADA
             System.out.println("Pilihan tidak tersedia");
         }
 

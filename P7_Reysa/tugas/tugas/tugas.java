@@ -1,4 +1,4 @@
-package src.P7_Reysa.latihan.tugas;
+package src.P7_Reysa.tugas.tugas;
 import java.util.Scanner;
 
 public class tugas {

@@ -1,4 +1,5 @@
-package src.P7_Reysa.latihan.latihan;
+package src.P7_Reysa.latihan;
+
 import java.util.Scanner;
 
 public class latihan1 {

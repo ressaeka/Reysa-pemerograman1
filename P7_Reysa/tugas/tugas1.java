@@ -1,7 +1,7 @@
-package src.P7_Reysa.tugas.tugas;
+package src.P7_Reysa.tugas;
 import java.util.Scanner;
 
-public class tugas {
+public class tugas1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
